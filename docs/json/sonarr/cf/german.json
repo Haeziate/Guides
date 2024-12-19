@@ -1,26 +1,17 @@
 {
   "trash_id": "german",
   "trash_scores": {
-    "default": -10000
+    "default": 10
   },
-  "trash_description": "Language: Prefer X but i'll take Y",
-  "name": "Language: Not Original or German",
+  "trash_description": "Prefer Language X",
+  "name": "Language: Prefer German",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "Not Original",
+      "name": "German Language",
       "implementation": "LanguageSpecification",
-      "negate": true,
-      "required": true,
-      "fields": {
-        "value": -2
-      }
-    },
-    {
-      "name": "Not German",
-      "implementation": "LanguageSpecification",
-      "negate": true,
-      "required": true,
+      "negate": false,
+      "required": false,
       "fields": {
         "value": 4
       }
